@@ -47,6 +47,11 @@ table {
 	border-spacing: 0;
 }
 
+.imagenBanner {
+    position: relative;
+    width: 100%;
+}
+
 .main-container {
     position: relative;
     width: 100%;

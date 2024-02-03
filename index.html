@@ -10,20 +10,33 @@
 <header>Banner</header>
 <body>
     <!--Se hace la division de los elementeos y el primero seria la caja de texto-->
-    <div class="main-container">
+<div class="main-container">
         <!--aqui se realiza el cuadro de texto. Placeholder para ingresar un mensaje para ayudar al usuario-->
-        <div class="encriptar"></div>
-            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingrese su texto, solo minusculas y sin caracteres especiales"></textarea>
-        </div>
+    <div class="encriptar">
+        <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingrese su texto, solo minusculas y sin caracteres especiales"></textarea>
+    </div>
+
     <div class="advertencia">
         <!--Esta division marcara el mensaje de advertencia solo con un atributo de parrafo-->
         <p>Solo letras minusculas y sin acentos o caracteres especiales</p>
     </div>
+
     <div class="botones">
         <button class="btn-encriptar" type="button" onclick="encriptar">Encrypt</button>
         <input type="button" class="bnt-desencriptar" value="Decrypt" onclick="desencriptar()">
     <!--Onclick al igual que action scrip servira para llamar la funcion con el java-->
     </div>
+
+    <div class="texto-encriptado">
+    <img src="" alt="fondo-txtencriptado">
+    </div>
+
+    <div class="mensaje-encriptado" id="Mensaje Encriptado">
+        <h2 id="titulo-mensaje">Ningun mensaje encontrado</h2>
+        <p>Ingresa el texto que deseas encriptar o desencriptar</p>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="mensaje"></textarea>
+    </div>
+</div>
         
     
 </body>

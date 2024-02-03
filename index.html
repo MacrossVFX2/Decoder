@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neyron Encryptor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!--Hay que diseñar esta imagen para colocarla como banner-->
+<header>Banner</header>
+<body>
+    <!--Se hace la division de los elementeos y el primero seria la caja de texto-->
+    <div class="main-container">
+        <!--aqui se realiza el cuadro de texto. Placeholder para ingresar un mensaje para ayudar al usuario-->
+        <div class="encriptar"></div>
+            <textarea name="texto" class="texto" id="texto" cols="30" rows="10" placeholder="Ingrese su texto, solo minusculas y sin caracteres especiales"></textarea>
+        </div>
+    <div class="advertencia">
+        <!--Esta division marcara el mensaje de advertencia solo con un atributo de parrafo-->
+        <p>Solo letras minusculas y sin acentos o caracteres especiales</p>
+    </div>
+    <div class="botones">
+        <button class="btn-encriptar" type="button" onclick="encriptar">Encrypt</button>
+        <input type="button" class="bnt-desencriptar" value="Decrypt" onclick="desencriptar()">
+    <!--Onclick al igual que action scrip servira para llamar la funcion con el java-->
+    </div>
+        
+    
+</body>
+<!--Aqui ingresamos la relacion o que jale el codigo de java-->
+<script src="index.js"></script>
+</html>

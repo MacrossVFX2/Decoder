@@ -46,3 +46,19 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+/*-----
+Fuentes
+------*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/*-----
+Global CSS
+-----*/
+:root {
+	--font:#e5e5e5;
+
+}
+
+*{
+	
+}

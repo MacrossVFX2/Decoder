@@ -70,7 +70,7 @@ Global CSS Para definir el stilo de fuente
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: ;<!--falta definir la fuente imprtada-->
+    font-family: ;
     text-decoration: none;
     background: var(--Withe);
 }

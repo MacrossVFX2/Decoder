@@ -53,8 +53,8 @@ header {
 header .logo{
     display: flex;
     align-items: flex-start;
-    width: 300px;
-    height: 80px;
+    width: 400px;
+    height: 90px;
 }
 
 /*------------------
@@ -63,23 +63,23 @@ Seccion main del encriptador
 main {
     display: flex;
     flex-direction: row;
-    background: url(../Decoder/images/fondo.png) no-repeat;
+    background: url(/images/fondo.png) no-repeat;
     background-size: cover;
     background-position: center;
 }
 
 .encrypter {
     width: 60%;
-    margin: 168px opx 0px 140px;
+    margin: 160px 0px 0px 140px;
     background: transparent;
 }
 
 .encrypt {
     width: 660px;
-    height: 288px;
+    height: 290px;
     font-weight: 400;
-    font-size: 32px;
-    line-height: 48px;
+    font-size: 30px;
+    line-height: 50px;
     outline: none;
     border: 1px solid var(--Grey);
     border-radius: 15px;
@@ -95,7 +95,7 @@ main {
     flex-direction: row;
     align-items: center;
     padding: 0;
-    gap: 8px;
+    gap: 10px;
     position: absolute;
     top: 500px;
 }
@@ -104,7 +104,7 @@ main {
     width: 100%;
     font-style: normal;
     font-weight: 400;
-    font-size: 18px;
+    font-size: 20px;
     line-height: 150%;
     opacity: 0.8;
     color: var(--mediumGrey);
@@ -116,7 +116,7 @@ main {
     align-items: flex-start;
     gap: 8px;
     position: absolute;
-    top: 60%;
+    top: 530px;
 }
 
 .btn-encrypt{
@@ -125,8 +125,8 @@ main {
     padding: 15px;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 19px;
+    font-size: 15px;
+    line-height: 20px;
     text-align: center;
     color: var(--White);
     background: var(--DarkBlue);
@@ -167,8 +167,8 @@ Hasta aqui se hizo el pull
 --------*/
 
 .board{
-    width: 30%;
-    height: 80%;
+    width: 250px;
+    height: 550px;
     background: var(--Font);
     box-shadow: 10px 25px 30px -10px var(--grey);
     position: relative;
@@ -190,8 +190,8 @@ Hasta aqui se hizo el pull
 
 .text-one{
     font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
+    font-weight: 500;
+    font-size: 20px;
     line-height: 115%;
     text-align: center;
     color: var(--grey);
@@ -214,10 +214,10 @@ Hasta aqui se hizo el pull
     margin: 20px;
     position: absolute;
     bottom: 0;
-    left: 20%;
+    left: 0%;
     visibility: hidden;
-    padding: 25px;
-    font-size: 15px;
+    padding: 20px;
+    font-size: 20px;
     line-height: 20px;
     text-align: center;
     background: var(--witheBlue);
@@ -253,3 +253,32 @@ Hasta aqui se hizo el pull
 .evaluate:focus{
     outline: none;
 }
+/*------
+Footer
+-------*/
+
+footer{
+    height: 5px;
+    color: var(--Grey);
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    border-top: 2px solid var(--Font);
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--grey);
+}
+
+.github:hover{
+    color: var(--Font);
+    opacity: 0.5;
+}
+
+.linked:hover{
+    color: var(--Font);
+    opacity: 0.5;
+}
+
+/*-------------
+¿Como hacer resposivo el diseño?
+--------------*/

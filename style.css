@@ -284,7 +284,7 @@ footer{
 /*-------------
 ¿Como hacer resposivo el diseño?
 --------------*/
-@media(max-width 1250px){
+@media(max-width: 1250px){
     main{
         display: flex;
         flex-direction: column;
@@ -295,13 +295,13 @@ footer{
     .encrypter{
         margin: 165px 0px 0px 0px;
         display: flex;
+        flex-direction: column;
         align-items: center;
         width: 100%;
     }
 
     .container{
         display: flex;
-        flex-direction: column;
         align-items: center;
         position: inherit;
     }
@@ -313,17 +313,14 @@ footer{
 
     .board{
         display: flex;
-        flex-direction: column;
-        position: relative;
-        width: 100%;
+        width: 650px;
         height: 300px;
         justify-content: center;
         align-items: flex-end;
     }
 
     .board-container{
-        display: flex;
-        flex-direction: column;
+        display: block;
         justify-content: center;
         align-items: center;
         width: 100%;
@@ -349,9 +346,9 @@ footer{
     }
 }
 
-@media(max-width: 720px;){
-    
-    header .logo{
+@media(max-width: 720px){
+
+    header.logo{
         width: 100%;
         background: var(--White);
         padding: 2px;

@@ -8,4 +8,8 @@ Alguna vez (hace ya mucho tiempo), utilizabamos dreamweaver para diseño de pagi
 
 Por mas que quise utilizar porcentajes para que el diseño fuera Resposive no me quedo muy clara la aplicacion del mismo. Espero que con la practica nuevamente esto pueda ser mas facil y sobre todo me ayude a cimprender mas que nada los limites de casa SECTION o DIV.
 
-Espero poder cumplir con el desafio y posteriormente realizar una version 2 del mismo que ocupe menos codigo para hacerlo Responsive
+Espero poder cumplir con el desafio y posteriormente realizar una version 2 del mismo que ocupe menos codigo para hacerlo Responsive.
+
+Me fue muy dificil del js, tuve que recurrir tanto a la documentacion como a tutoriales. Las pruebas logicas las tuve bien presentes en la mente pero no cuento con el lenguje y soltura suficiente para poder desarrollarlo por mi cuenta, por eso mismo hubo que recurrir a todo mundo incluso a colaboradores en mi trabajo.
+
+por ultimo le dare animacion a los botones con CSS segun un tutorial, espero no sea dificl. Solo faltan 2 pasos

@@ -13,3 +13,7 @@ Espero poder cumplir con el desafio y posteriormente realizar una version 2 del 
 Me fue muy dificil del js, tuve que recurrir tanto a la documentacion como a tutoriales. Las pruebas logicas las tuve bien presentes en la mente pero no cuento con el lenguje y soltura suficiente para poder desarrollarlo por mi cuenta, por eso mismo hubo que recurrir a todo mundo incluso a colaboradores en mi trabajo.
 
 por ultimo le dare animacion a los botones con CSS segun un tutorial, espero no sea dificl. Solo faltan 2 pasos
+
+No se realizo la aniumacion de los botones debido a que el estilo intervenia con la vista final del proyecto, por tanto para no mover el Style no se hizo la animacio.
+
+A veces Menos es Mas

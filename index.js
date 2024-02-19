@@ -11,36 +11,36 @@ btnEncrypt.addEventListener("click", e=>{
     let txt = text.normalize("NFD").replace(/[$\.¿\?~!\¡@#%^&*()_|}\{[\]>\<:"`;,\u0300-\u036f']/g, "");
     
     if(text == ""){
-        warning.style.background = "#0A3871";
+        warning.style.background = "#FF0000";
         warning.style.color = "#FFFF";
-        warning.style.fontWeight = "800";
+        warning.style.fontWeight = "600";
         warning.textContent = "Error, el campo no puede estar vacio. Favor de corregir";
         
         setTimeout(()=>{
             warning.removeAttribute("style");
-        },1500);
+        },1000);
     }
 
     else if(text !== txt){
-        warning.style.background = "#0A3871";
+        warning.style.background = "#FF0000";
         warning.style.color = "#FFFF";
-        warning.style.fontWeight = "800";
+        warning.style.fontWeight = "600";
         warning.textContent = "Acentos y caracteres especiales no estan permitidos";
         
         setTimeout(()=>{
             warning.removeAttribute("style");
-        },1500);
+        },1000);
     }
 
     else if(text !== text.toLowerCase()){
-        warning.style.background = "#0A3871";
+        warning.style.background = "#FF000";
         warning.style.color = "#FFFF";
-        warning.style.fontWeight = "800";
+        warning.style.fontWeight = "600";
         warning.textContent = "El texto debe estar solo en minusulas";
         
         setTimeout(()=>{
             warning.removeAttribute("style");
-        },1500);
+        },1000);
     }
 
 });

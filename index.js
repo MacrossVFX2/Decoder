@@ -36,26 +36,27 @@ btnEncrypt.addEventListener("click", e=>{
     }
 
     else if(text !== text.toLowerCase()){
-        warning.style.background = "#FF000";
+        warning.style.background = "#FF0000";
         warning.style.color = "#FFFF";
         warning.style.fontWeight = "500";
-        warning.textContent = "El texto debe estar solo en minusculas";
+        warning.textContent = "Error!, solo estan permitidas letras minusculas";
         
         setTimeout(()=>{
             warning.removeAttribute("style");
         },1000);
     }
-    //--sustitucion para encriptar a = ai, e = enter, i = imes, o = ober y u = ufat--//     
+    //--sustitucion para encriptar a = ai, e = enter, i = imes, o = ober y u = ufa (si no se respeta 
+    //--el orden de las vocales el resultado es completamente distinto)     
     else{
-        text = text.replace(/a/mg, "ai");
         text = text.replace(/e/mg, "enter");
         text = text.replace(/i/mg, "imes");
+        text = text.replace(/a/mg, "ai");
         text = text.replace(/o/mg, "ober");
         text = text.replace(/u/mg, "ufat");    
 
         result.innerHTML = text;
-        container.remove();
         btnCopy.style.visibility = "inherit";
+        container.remove();
     }
 });
 
@@ -88,10 +89,10 @@ btnDecrypt.addEventListener("click", e=>{
     }
 
     else if(text !== text.toLowerCase()){
-        warning.style.background = "#FF000";
+        warning.style.background = "#FF0000";
         warning.style.color = "#FFFF";
         warning.style.fontWeight = "500";
-        warning.textContent = "El texto debe estar solo en minusculas";
+        warning.textContent = "Error!, solo estan permitidas letras minusculas";
         
         setTimeout(()=>{
             warning.removeAttribute("style");
@@ -99,15 +100,15 @@ btnDecrypt.addEventListener("click", e=>{
     }
     //--sustitucion para encriptar invertidos a = ai, e = enter, i = imes, o = ober y u = ufat--//     
     else{
-        text = text.replace(/ai/mg, "a");
-        text = text.replace(/enter/mg, "e");
-        text = text.replace(/imes/mg, "i");
-        text = text.replace(/ober/mg, "o");
-        text = text.replace(/ufat/mg, "u");    
+        text = text.replace(/enter/mg,"e");
+        text = text.replace(/imes/mg,"i");
+        text = text.replace(/ai/mg,"a");
+        text = text.replace(/ober/mg,"o");
+        text = text.replace(/ufat/mg,"u");
 
         result.innerHTML = text;
-        container.remove();
         btnCopy.style.visibility = "inherit";
+        container.remove();
     }
 });
 
